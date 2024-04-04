@@ -1,0 +1,41 @@
+// Variables colors
+$color-primary: 	#0e5135;
+$color-secondary: #0d9263;
+$color-tertiary: #4aba91;
+$color-text: #494b4b;
+$color-yellow: 	#d4ce46;
+
+
+body {
+    background-color: $color-tertiary;
+}
+// header
+.header {
+    background-color: $color-primary;
+    color: $color-text;
+    height: 15vh;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+// main
+.main {
+    background-color: $color-secondary;
+    color: $color-text;
+    height: 45em;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    &_card {
+        background-color: $color-yellow;
+        color: $color-text;
+        border-radius: 20px;
+        height: 100px;
+        width: 100px;
+    }
+}
+// footer
+.footer {
+    background-color: $color-yellow;
+    color: $color-text;
+}

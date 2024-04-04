@@ -1,0 +1,33 @@
+body {
+  background-color: #4aba91;
+}
+
+.header {
+  background-color: #0e5135;
+  color: #494b4b;
+  height: 15vh;
+  margin-bottom: 1%;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.main {
+  background-color: #0d9263;
+  color: #494b4b;
+  height: 45em;
+  margin-bottom: 1%;
+  border-radius: 20px;
+}
+.main_card {
+  background-color: #d4ce46;
+  color: #494b4b;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.footer {
+  background-color: #d4ce46;
+  color: #494b4b;
+}/*# sourceMappingURL=style.css.map */
